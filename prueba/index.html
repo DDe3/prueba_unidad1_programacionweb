@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba 1</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+
+    <h3 id="textoInicial">Seleccione el Pokémon correcto</h1>
+    <img id="img1" src="images/pnegro.jpg"></img>
+    
+
+    <br>
+
+    <button id="boton1" type="button" onclick="adivinar(document.getElementById('boton1').innerHTML)">Keldeo-ordinary</button>
+    <button id="boton2" type="button" onclick="adivinar(document.getElementById('boton2').innerHTML)">drilbur</button>
+    <button id="boton3" type="button" onclick="adivinar(document.getElementById('boton3').innerHTML)">ninjask</button>
+    <button id="boton4" type="button" onclick="adivinar(document.getElementById('boton4').innerHTML)">excadrill</button>
+    <button type="button" onclick="reiniciar()">Reiniciar</button>
+
+    <h3 id="respuesta", style="display: none;"></h1>
+
+    
+</body>
+</html>
